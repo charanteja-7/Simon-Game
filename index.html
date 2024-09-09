@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simon Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <button class="0" id="0">0</button>
-    <button class="1" id="1">1</button>
-    <button class="2" id="2">2</button>
-    <button class="3" id="3">3</button>
-    <script src="script.js"></script>
-</body>
+     <div class="container">
+        <h1>Simon Game</h1>
+        <div class="box-container">
+            <div class="top">
+                <div class="top-left box" id="1">
 
+                </div>
+                <div class="top-right box" id="2">
+
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bottom-left box" id="3">
+
+                </div>
+                <div class="bottom-right box " id="4" >
+                    
+                </div>
+            </div>
+
+        </div>
+        <div class="level">Level : 1</div>
+        <div class="buttons">
+            <button class="reset button" onclick="resetGame()">Reset</button>
+            <button class="start button" onclick="startGame()">Start</button>
+        </div>
+     </div>
+     <div class="game-over-message" style="display: none;">
+        <h1 class="over">Game Over</h1>
+    </div>    
+     <script src="script.js"></script>
+</body>
 </html>
