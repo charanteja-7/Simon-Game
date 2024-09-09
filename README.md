@@ -11,7 +11,7 @@ Welcome to the **Simon Game**! This is a web-based implementation of the classic
 - [Project Structure](#project-structure)
 
 ## Demo
-You can try the live demo of the game here: **[Live Demo Link]** 
+You can try the live demo of the game here: **https://charanteja-7.github.io/Simon-Game/** 
 
 ## Features
 - **Dynamic game sequences**: The computer generates sequences that get progressively longer with each level.
