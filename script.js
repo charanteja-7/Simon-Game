@@ -67,7 +67,7 @@ function validateSequence() {
 function startGame() {
   resetValues();
   playSound('game-start');
-  setTimeout(generateComputerSequence(),2000);
+  setTimeout(generateComputerSequence(),3000);
 }
 
 
